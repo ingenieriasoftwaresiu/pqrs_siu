@@ -1,0 +1,242 @@
+/* 
+    Document   : pqrs
+    Created on : 11-sep-2012, 11:16:29
+    Author     : jorge.correa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.TABLAINFO{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.TABLAFORM{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;
+}
+
+.LABELFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.TITULOFORM{
+    font-family: "Candara";
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+}
+
+.CELDACAMPOFORM{
+    padding-top: 10px;
+    text-align: left;
+}
+
+.CELDABOTONFORM{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.CELDARADIOFORM{
+    padding-top: 10px;   
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;   
+    color: #116043;
+}
+
+.CAMPOFORM{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 13px;	
+    height: 17px;
+    width: 150px;
+}
+
+.CAMPOFORM:hover {
+    border: 1px solid #116043;
+    background: #ECEBA3;
+}
+
+.CAMPOFORMREAD{
+    border: 0px;
+    font-family: "Candara";
+    font-size: 13px;	
+    height: 17px;
+    width: 150px;
+    background: #FFC;
+}
+
+.BOTONFORM{
+    font-family: "Candara";
+    font-size: 12px;
+    background: #116043;
+    color: #FFFFFF;
+    border: 1px solid #116043;
+    height: 20px;
+    width: 80px;
+}
+
+.BOTONFORM:hover{
+    background: #09B262;
+    border: 1px solid #09B262;
+}
+
+.TEXTOFALLO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.TEXTOEXITO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.MSGAVISOOBLG{
+    font-family: 'Candara';
+    font-size: 10px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.TEXTAREA{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 11px;	
+    width: 93%;
+}
+
+.TEXTAREA:hover{
+     border: 1px solid #116043;
+    background: #ECEBA3;
+}
+
+.IMGERROR{   
+    vertical-align: middle;
+}
+
+.TEXTOINFO{
+    font-family: 'Candara';
+    font-size: 13px;
+    color: #116043;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;    
+}
+
+.TEXTOTINFO{
+    font-family: 'Candara';
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    text-align: left;
+    vertical-align: middle;
+    width: 90px;
+    padding-left: 5px;
+    border-right: 1px solid #116043;
+}
+
+.SUBTITULOFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+    background: #83AD9E;   
+}
+
+.BTNABRIROBS{
+    width: 10px;
+    height:  15px;
+    vertical-align: middle;
+}
+
+.TEXTOAVISOID{
+    font-family: "Candara";
+    font-size: 10px;
+    font-weight: normal;
+    color: #116043;
+    text-align: justify;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+
+a{  	
+    text-decoration: none;
+}
+
+.DIVEDITABLE{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 11px;	
+    height: 140px;
+    width: 620px;
+    text-align: justify;
+    overflow:auto;
+    word-wrap: break-word;
+}
+
+.IMGLOAD{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.LABELRPTAOBS{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;   
+    text-align: left;
+    padding-bottom: 10px;
+}
+

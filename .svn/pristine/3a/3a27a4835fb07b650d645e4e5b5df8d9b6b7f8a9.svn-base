@@ -1,0 +1,290 @@
+.LABELFORM{
+    font-family: "Candara";
+    font-size: 11px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;        
+}
+
+.TITULOTABLAIZQ{
+    font-family: "Candara";
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+    
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #000000;
+    
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000000;
+}
+
+.TITULOTABLADER{
+    font-family: "Candara";
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+    
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000000;    
+}
+
+.TITULOTABLACENTER{
+    font-family: "Candara";
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+    
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000000;
+}
+
+.TEXTOCELDAIZQ{
+    font-family: "Candara";
+    font-size: 9px;
+    font-weight: normal;
+    color: #116043;
+    text-align: center;
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #000000;
+    
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000000;
+}
+
+.TEXTOCELDAIZQ:hover{
+    background: #ECEBA3;
+}
+
+.TEXTOCELDADER{
+    font-family: "Candara";
+    font-size: 9px;
+    font-weight: normal;
+    color: #116043;
+    text-align: center;
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000000;    
+}
+
+.TEXTOCELDADER:hover{
+    background: #ECEBA3;
+}
+
+.TEXTOCELDACENTER{
+    font-family: "Candara";
+    font-size: 9px;
+    font-weight: normal;
+    color: #116043;
+    text-align: center;
+       
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000000;
+}
+
+.TEXTOCELDACENTER:hover{
+    background: #ECEBA3;
+}
+
+.FILARESULT:hover{
+    background: #ECEBA3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:linked{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.USERLOGED{
+    font-family: "Candara";
+    font-size: 12px;
+    color: #116043;
+    text-align: left;
+}
+
+.TABLAFORM{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;    
+    
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.LABELFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.TITULOFORM{
+    font-family: "Candara";
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+}
+
+.CELDACAMPOFORM{
+    padding-top: 10px;
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+}
+
+.CELDABOTONFORM{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.CAMPOFORM{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 13px;	
+    height: 17px;
+    width: 180px;
+}
+
+.CAMPOFORM:hover {
+    border: 1px solid #116043;
+    background: #ECEBA3;
+}
+
+.BOTONFORM{
+    font-family: "Candara";
+    font-size: 12px;
+    background: #116043;
+    color: #FFFFFF;
+    border: 1px solid #116043;
+    height: 20px;
+    width: 80px;
+}
+
+.BOTONFORM:hover{
+    background: #09B262;
+    border: 1px solid #09B262;
+}
+
+.IMGERROR{
+    vertical-align: middle;
+}
+
+.TEXTOEXITO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.TEXTOFALLO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.MSGAVISO{
+    font-family: 'Candara';
+    font-size: 9px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-left: 5px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.TABLARESULT{    
+    box-shadow: 5px 5px 10px #ccc;
+}

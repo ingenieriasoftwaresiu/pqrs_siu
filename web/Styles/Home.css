@@ -1,0 +1,51 @@
+/* 
+    Document   : StylesBuzonHome
+    Created on : 11-sep-2012, 9:14:34
+    Author     : jorge.correa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    margin: 0px;
+}
+
+.TEXTOHOMEBIG{
+    font-family: 'Candara';
+    font-size: 30px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+}
+
+.TEXTOHOMESMALL{
+    font-family: 'Candara';
+    font-size: 20px;
+    font-weight: normal;
+    color: #116043;
+    text-align: center;
+}
+
+.MSGBROWSER{
+    font-family: 'Candara';
+    font-size: 12px;
+    font-weight: normal;
+    color: #505050;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:linked{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}

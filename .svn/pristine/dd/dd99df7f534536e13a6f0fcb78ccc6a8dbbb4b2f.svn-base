@@ -1,0 +1,50 @@
+<%-- 
+    Document   : index
+    Created on : 11-sep-2012, 10:15:35
+    Author     : jorge.correa
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<% 
+    String strUsuario, strPreload = null;
+    strUsuario = request.getParameter("txtCedula");    
+    strPreload = request.getParameter("preload");    
+%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="Styles/Home.css" />
+        <link rel="SHORTCUT ICON" href="Images/favicon.ico" />
+        <title>Sistema para la atención de Peticiones, Quejas, Reclamos, Sugerencias, Felicitaciones y Denuncias (PQRSFD) - ASIU</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var strCadena = "principal.jsp?txtCedula="+<%=strUsuario%>+"&preload="+<%=strPreload%>;
+            setTimeout(function(){location.href = strCadena;},4000);
+        </script>       
+        <jsp:include page="header.jsp" />        
+        <div align="center">              
+            <div style="padding-top: 80px;"></div>            
+            <table cellspacing="0" cellpadding="0" width="600px"  border="0">                        
+                <tr>
+                        <td class="TEXTOHOMEBIG">BIENVENIDO!</td>                                
+                </tr>
+                <tr><td height="10px"></td></tr>
+                <tr>
+                        <td class="TEXTOHOMESMALL">Un momento por favor, la aplicación se está cargando para su acceso.</td>                                
+                </tr>
+                <tr><td height="15px"></td></tr>
+                <tr>
+                    <td style="text-align: center;"><img src="Images/loader.gif" width="40" height="40"></td>		
+                </tr>
+            </table>      
+        </div>
+        <br /><br /><br />
+        <div align="center" class="MSGBROWSER">
+            <<< Para una mejor visualización, se recomienda utilizar <b>Mozilla Firefox</b> versión superior a 20 ó <b>Google Chrome</b> versión superior a 27. >>>
+        </div>  
+        <div style="padding-top: 10px;"></div>
+        <jsp:include page="footer.jsp" />
+    </body>
+</html>
