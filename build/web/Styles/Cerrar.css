@@ -1,0 +1,16 @@
+.TEXTOCIERRE{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 100px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{	
+    text-decoration: none;
+}

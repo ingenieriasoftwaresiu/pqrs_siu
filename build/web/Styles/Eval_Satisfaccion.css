@@ -1,0 +1,181 @@
+.IMGLOGOAPP{
+    width: 55px;
+    height: 50px;
+    border: 0px;
+}
+
+.TABLAFORM{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;    
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.LABELFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.TITULOFORM{
+    font-family: "Candara";
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.SUBTITULOFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+    background: #83AD9E;   
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+}
+
+.CELDACAMPOFORM{
+    padding-top: 10px;
+}
+
+.CELDABOTONFORM{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.CELDARADIOFORM{
+    padding-top: 10px;   
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;   
+    color: #116043;
+}
+
+.CAMPOFORM{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 13px;	
+    height: 17px;
+    width: 150px;
+}
+
+.CAMPOFORMREAD{
+    border: 0px;
+    font-family: "Candara";
+    font-size: 13px;	
+    height: 17px;
+    width: 150px;
+    background: #FFC;
+}
+
+.CAMPOFORM:hover {
+    border: 1px solid #116043;
+    background: #ECEBA3;
+}
+
+.BOTONFORM{
+    font-family: "Candara";
+    font-size: 12px;
+    background: #116043;
+    color: #FFFFFF;
+    border: 1px solid #116043;
+    height: 20px;
+    width: 80px;
+}
+
+.BOTONFORM:hover{
+    background: #09B262;
+    border: 1px solid #09B262;
+}
+
+a{
+    color: #116043;	
+    text-decoration: none;
+}
+
+a:hover{
+    color: #09B262;
+    text-decoration: none;
+}
+
+.TEXTOFALLO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.TEXTOEXITO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.IMGERROR{   
+    vertical-align: middle;
+}
+
+.MSGAVISOOBLG{
+    font-family: 'Candara';
+    font-size: 10px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.TEXTOOBS{
+    font-family: 'Candara';
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    border: 1px solid #116043;
+    background: #FFC;
+    width: 95%;
+    height: 80px;
+}
+
+.MENSAJEESTADOCERRADO{
+     font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+}
+
+.TEXTOCIERRE{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+}
+

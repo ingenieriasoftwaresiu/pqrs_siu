@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- CONFIGURACIÓN DE BASE DE DATOS PARA DESARROLLO -->
+
+<pqrs>
+        <Users>
+                    <driver>com.mysql.jdbc.Driver</driver>
+                    <url>jdbc:mysql://localhost:3306/users</url>
+                    <userBD>admin</userBD>
+                    <passwdBD>2Lb2s4d2l14c1</passwdBD>
+        </Users>
+        <Buzon>
+                    <driver>com.mysql.jdbc.Driver</driver>
+                    <url>jdbc:mysql://localhost:3306/buzon</url>
+                    <userBD>admin</userBD>
+                    <passwdBD>2Lb2s4d2l14c1</passwdBD>
+        </Buzon>
+</pqrs>
+
+<!--  CONFIGURACIÓN DEL AMBIENTE DE PRUEBAS-->
+
+<!-- 
+<pqrs>
+        <Users>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://172.30.200.11:3306/users</url>
+                            <userBD>admin</userBD>
+                            <passwdBD>2Lb2s4d2l14c1</passwdBD>
+        </Users>
+                    <Buzon>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://172.30.200.11:3306/buzon</url>
+                            <userBD>admin</userBD>
+                            <passwdBD>2Lb2s4d2l14c1</passwdBD>
+        </Buzon>
+</pqrs>
+-->
+
+<!--  CONFIGURACIÓN DEL AMBIENTE DE PRODUCCIÓN-->
+<!--
+<pqrs>
+	<Users>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://172.30.100.38:3306/users</url>
+                            <userBD>admin</userBD>
+                            <passwdBD>2Lb2s4d2l14c1</passwdBD>
+	</Users>
+                    <Buzon>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://172.30.100.38:3306/buzon</url>
+                            <userBD>admin</userBD>
+                            <passwdBD>2Lb2s4d2l14c1</passwdBD>
+	</Buzon>
+</pqrs>
+-->

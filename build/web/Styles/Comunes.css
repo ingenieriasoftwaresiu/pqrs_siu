@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+}
+
+.LOGOUDEA{
+    width: 80px;
+    height: 100px;
+}
+
+.LOGOGRUPO{
+    width: 100px;
+    height: 85px;
+}
+
+.TABLAMAESTRO{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;    
+    
+     box-shadow: 5px 5px 10px #ccc;
+    height: 110px;
+}
+
+.TABLAHEAD{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;    
+   
+    background-color:  #D4D0C8;
+    box-shadow: 5px 5px 5px #aaa; 
+    
+    height: 100px;
+}
+
+.TABLAPQRS{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;    
+      box-shadow: 5px 5px 10px #ccc;
+    height: 110px;
+}
+
+
+.CELDAHEAD{
+    text-align: center;		
+    font-family: "Candara";
+    font-weight: bold;
+    color: #116043;    
+}
+
+.CELDALOGOAPP{
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.CELDATEXTOTITULO{
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 17px;
+    color: #116043;
+    width: 65%;
+    text-align: left;
+    vertical-align: middle;
+    text-shadow: 5px 5px 5px #94918C;        
+}
+
+.CELDATEXTOSUBTITULO{
+    text-align: left;
+    vertical-align: middle;
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 14px;
+    color: #116043;
+    height: 35px;
+    padding-left: 50px;
+    text-shadow: 5px 5px 5px #94918C;        
+     width: 25%;
+}
+
+.IMGLOGOAPP{
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+}
+
+.TABLAFOOT{
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: #116043;
+}
+
+.TEXTOFOOT{
+    font-family: "Candara";
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+    color: #116043;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.TEXTOFOOTPQRS{
+    font-family: "Candara";
+    font-size: 11px;
+    font-weight: normal;
+    color: #116043;
+    text-align: center;
+    padding-left: 0px;
+    width: 60%;
+    text-shadow: 5px 5px 5px #94918C;  
+}
+
+.TEXTOLOGOSPQRS{
+    font-family: "Candara";
+    font-size: 8px;
+    font-weight: normal;
+    color: #116043;
+    text-align: left;
+    vertical-align: text-top;
+    width: 20%;
+}
+
+.TEXTOLOGOONAC{
+    font-family: "Candara";
+    font-size: 8px;
+    font-weight: normal;
+    color: #116043;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 27%;
+}
+
+.CELDALOGOSIU{
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.IMGLOGOSIU{
+    width: 200px;
+    height: 85px;
+    vertical-align: middle;
+}
+
+.LOGOSFOOT{
+    width: 250px;
+    padding-top: 5px;
+}
+
+a{
+    color: #116043;	
+    text-decoration: none;
+}
+
+a:hover{
+    color: #09B262;	
+    text-decoration: none;
+}
+
+.CIERRESESION{
+    font-family: "Candara";
+    font-size: 12px;
+    font-weight: bold;
+    color: #116043;
+    text-align: right;
+}
+
+.BOTONFORM{
+    font-family: "Candara";
+    font-size: 12px;
+    font-weight: bold;
+    background: #116043;
+    color: #FFFFFF;
+    border: 1px solid #116043;
+    height: 20px;
+    width: 80px;
+}
+
+.BOTONFORM:hover{
+    background: #09B262;
+    border: 1px solid #09B262;
+}
+
+.TEXTOMENSAJE{
+    font-family: 'Candara';
+    font-size: 18px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+}

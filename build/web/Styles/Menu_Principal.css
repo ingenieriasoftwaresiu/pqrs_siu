@@ -1,0 +1,240 @@
+.USERLOGED{
+    font-family: "Candara";
+    font-size: 12px;
+    color: #116043;
+    text-align: center;
+    font-weight: bold;
+}
+
+.TITULOMENU{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background: #116043;   
+}
+
+.SUBTITULOMENU{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+    background: #83AD9E;   
+}
+
+.ITEMMENU{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: normal;
+    color: #015637;
+    text-align: left;
+    background: #FFFFFF;
+    padding-left: 10px;
+}
+
+.SELECTED{
+     background: #ECEBA3;
+     font-weight: bold;
+}
+
+.ITEMMENU:hover{
+    background: #ECEBA3;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:linked{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.TABLAMENU{
+    border: 1px solid #116043;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.TEXTONOSEL{
+    text-align: center;		
+    font-family: "Candara";
+    font-size: 17px;
+    font-weight: bold;
+    color: #116043;    
+}
+
+.TABLARESULT{
+    border-left: 1px solid #116043;
+    border-right: 1px solid #116043;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.TEXTORESULT{
+    font-family: "Candara";
+    font-size: 10px;
+    font-weight: normal;
+    color: #015637;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #116043;
+}
+
+.FILARESULT:hover{
+    background: #ECEBA3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.TEXTOFALLO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.TEXTOEXITO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.TABLAFORM{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;
+    
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.LABELFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+    width: 120px;
+}
+
+.TITULOBUSQUEDA{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    width: 250px;
+    background-color: #116043;
+}
+
+.CAMPOFORM{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 12px;	
+    height: 17px;
+    width: 150px;
+     vertical-align: middle;
+}
+
+.CAMPOFORM:hover {
+    border: 1px solid #116043;
+    background: #ECEBA3;    
+}
+
+.BOTONFORM{
+    font-family: "Candara";
+    font-size: 12px;
+    font-weight: bold;
+    background: #116043;
+    color: #FFFFFF;
+    border: 1px solid #116043;
+    height: 20px;
+    width: 80px;
+}
+
+.BOTONFORM:hover{
+    background: #09B262;
+    border: 1px solid #09B262;
+}
+
+.CELDAIMAGEN{
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+    border: 0px solid black;
+}
+
+.CELDACAMPOFORM{  
+    width: 150px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.IMAGENBUSQUEDA{
+    border: 0px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.TEXTOREFRESH{
+    font-family: "Candara";
+    font-size: 12px;
+    font-weight: bold;
+    color: #116043;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.TEXTOPAGINACION{
+    font-family: "Candara";
+    font-size: 12px;
+    font-weight: normal;
+    color: #116043;
+}
+
+a.TEXTOPAGINACION{
+    text-decoration: underline;
+}
+
+.TEXTOCONVENCION{
+    font-family: "Candara";
+    font-size: 10px;
+    font-weight: bold;
+    color: #116043;
+    text-decoration: underline;
+}
+
+.CELDACONVENCION{
+    font-family: "Candara";
+    font-size: 10px;
+    font-weight: normal;
+    color: #116043;
+    padding-left: 4px;
+}

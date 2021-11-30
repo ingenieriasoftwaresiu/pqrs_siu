@@ -1,0 +1,168 @@
+.TABLAFORM{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #116043;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #116043;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #116043;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #116043;
+}
+
+.LABELFORM{
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    width: 130px;
+}
+
+.TITULOFORM{
+    font-family: "Candara";
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #116043;
+    text-align: center;
+    height: 25px;
+}
+
+.SUBTITULOMENU1{
+    font-family: "Candara";
+    font-size: 14px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+    background: #83AD9E;   
+    border-top: 1px solid #83AD9E;    
+    border-left: 1px solid #83AD9E; 
+    border-right: 1px solid #83AD9E; 
+    height: 20px;
+}
+
+.SUBTITULOMENU2{
+    font-family: "Candara";
+    font-size: 14px;
+    font-weight: bold;
+    color: #116043;
+    text-align: center;
+    background: #83AD9E;   
+    border: 1px solid #116043;
+    height: 5px;
+    border-top: 1px solid #116043;
+    border-bottom: 1px solid #116043;
+    border-left-width: 0px; 
+    border-right-width: 0px;
+}
+
+.CELDACAMPOFORM{
+    padding-top: 10px;
+    width: 150px;
+    text-align: left;
+}
+
+.CELDABOTONFORM{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.CAMPOFORM{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 12px;	
+    height: 17px;
+    width: 130px;
+}
+
+.CAMPOFORM:hover {
+    border: 1px solid #116043;
+    background: #ECEBA3;
+}
+
+.BOTONFORM{
+    font-family: "Candara";
+    font-size: 12px;
+    background: #116043;
+    color: #FFFFFF;
+    border: 1px solid #116043;
+    height: 20px;
+    width: 80px;
+}
+
+.BOTONFORM:hover{
+    background: #09B262;
+    border: 1px solid #09B262;
+}
+
+.TEXTOFALLO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.TEXTOEXITO{
+    font-family: 'Candara';
+    font-size: 15px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.MSGAVISOOBLG{
+    font-family: 'Candara';
+    font-size: 10px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.MSGAVISOTEXTAREA{
+    font-family: 'Candara';
+    font-size: 10px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: left;
+     padding-top: 0px;
+    vertical-align: text-top;
+}
+
+.LABELOCULTAR{
+    height: 10px;
+    vertical-align: top;
+    font-family: "Candara";
+    font-size: 13px;
+    font-weight: bold;
+    color: #116043;
+    padding-top: 0px;  
+    padding-left: 0px; 
+    width: 70px;
+    text-align: left;
+}
+
+.TEXTAREA{
+    border: 1px solid #116043;
+    background: #FFC;
+    font-family: "Candara";
+    font-size: 12px;	
+}
+
+.IMGERROR{   
+    vertical-align: middle;
+}
